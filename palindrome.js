@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Palindrome check</title>
-</head>
-<body>
-    <script>
+
     function checkPalindrome(str) {
 
         // reverse string
         const reverseString = string.split('').reverse().join('');
-    
-      
-    
-        if(string == reverseString) {
+         if(string == reverseString) {
             document.write('It is a palindrome');
         }
         else {
@@ -26,6 +15,3 @@
     const string = prompt('Enter a string: ');
     
     checkPalindrome(string);
-</script>
-</body>
-</html>

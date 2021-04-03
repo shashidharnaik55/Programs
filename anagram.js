@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript function to find whether one is an anagram of the other</title>
-</head>
-<body>
-    <script>
+
        function checkAnagrams(str1, str2){
 
      var newstr1 = str1.toLowerCase().split('').sort().join();
@@ -26,6 +17,4 @@
      checkAnagrams("binary", "brainy");
      checkAnagrams("Indian", "nIndisn");
 
-    </script>
-</body>
-</html>
+   

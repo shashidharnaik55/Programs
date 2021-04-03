@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+
         function findInArray(ar, val) {
     for (var i = 0,len = ar.length; i < len; i++) {
         if ( ar[i] === val ) { 
@@ -21,6 +13,4 @@ var ar = ['Rudi', 'Morie', 'Halo', 'Miki', 'Mittens', 'Pumpkin'];
 // test the function 
 alert( findInArray(ar, 'Rudi') ); 
 alert( findInArray(ar, 'Coco') );
-    </script>
-</body>
-</html>
+   

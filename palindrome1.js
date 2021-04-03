@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Palindrome check</title>
-</head>
-<body>
-    <script>
 
 function checkPalindrome(str) {
 
@@ -31,6 +22,4 @@ const string = prompt('Enter a string: ');
 const value = checkPalindrome(string);
 
 document.write(value);
-    </script>
-</body>
-</html>
+    
